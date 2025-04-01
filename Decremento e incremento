@@ -1,0 +1,64 @@
+Dando uma explicada bem rápida temos os sinais
+
+**/  +  -  *  %**
+
+Lê-se recebe;
+
+Fiz um código de cabeça que foi bem executadoo!!!
+
+```
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+int n1, n2, n3, n4;
+int resto;
+
+cout << "multiplicação de 2 números para depois divisão com resto" << endl;
+cout << "Qual n1: " << endl;
+cin >> n1;
+cout << "Qual n2: " << endl;
+cin >> n2;
+
+resto = n1 * n2;
+
+cout << "A mult. é: " << resto << endl;
+
+cout << "Valor do dividendo: " << endl;
+cin >> n4;
+
+cout << "agora a divisão é: " << resto/n4 << endl;
+
+cout << "O valor de resto é: " << resto%n4 << endl;
+
+return 0;
+}
+
+```
+
+# Incremento e Decremento
+
+## vamos colocar números inteiros recebendo (=) um valor e executando no cout
+
+```
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+int n1=0, n2=10;
+
+cout << n1 << endl;
+
+n1 = n1 + 5;
+
+cout << n1;
+
+return 0;
+}
+```
+
+## Agora faremos de um jeito mais rápido
