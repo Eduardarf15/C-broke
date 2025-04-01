@@ -62,3 +62,47 @@ return 0;
 ```
 
 ## Agora faremos de um jeito mais rápido
+usando o encremento += nomeado 'recebe'
+PODE SER TODOS OS OPERADORES
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+  int n1=0, n2=10;
+
+  n1+=1;
+
+  cout << n1;
+
+    return 0;
+}
+//O RESULTADO VAI SER 1 POIS 0+1=1
+
+**modo rápido de decrementar e incrementar;
+
+**outra maneira
+
+>> "++"
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+  int n1=0, n2=10;
+  n1++;
+  cout << n1 << endl;
+  
+  
+    return 0;
+}
+
+QUE ERA 0 E PASSA A VALER 1;
+
+** E SENDO ASSIM FICA VICE VERSA COM "--" SUBTRAINDO.
+
+//AUMENTA OU DIMINUE 1 UNIDADE;
