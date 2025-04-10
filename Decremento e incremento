@@ -38,7 +38,7 @@ return 0;
 
 ```
 
-# Incremento e Decremento
+# Incremento e Decremento 
 
 ## vamos colocar números inteiros recebendo (=) um valor e executando no cout
 
@@ -101,7 +101,7 @@ int main()
     return 0;
 }
 
-QUE ERA 0 E PASSA A VALER 1;
+**QUE ERA 0 E PASSA A VALER 1;**
 
 ** E SENDO ASSIM FICA VICE VERSA COM "--" SUBTRAINDO.
 
