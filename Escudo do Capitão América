@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    const int radius = 20;
+    const char red = '*';
+    const char white = ' ';
+    const char blue = 'O';
+    const char star = '@';
+
+    for (int y = -radius; y <= radius; y++) {
+        for (int x = -radius; x <= radius; x++) {
+            float dist = sqrt(x * x + y * y);
+
+            if (dist < radius * 0.2)
+                cout << star; // estrela no centro
+            else if (dist < radius * 0.4)
+                cout << blue; // círculo azul
+            else if (dist < radius * 0.6)
+                cout << white; // círculo branco
+            else if (dist < radius * 0.8)
+                cout << red; // círculo vermelho
+            else if (dist <= radius)
+                cout << white; // borda branca
+            else
+                cout << " "; // fora do escudo
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
