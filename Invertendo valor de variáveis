@@ -1,0 +1,45 @@
+METODO DA INVERSÃO DE VALORES
+
+METODO TRADICIONAL:
+MULTIPLICA POR -1 ; 
+
+#include <iostream>
+using namespace std
+
+int main() {
+int num = 10;
+cout << num << endl;
+num = num * -1;
+cout << num << endl;
+return 0;
+}
+
+OU USAR OPERADOR PARA INVERSÃO.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int num = 10;
+cout << num << endl;
+cout << -num << endl;
+return 0;
+}
+
+→ O Operador não altera o valor completo
+
+- faz a inversão momentânea.
+
+MAIS SIMPLIFICADA:
+
+Usando a simplificação da aula passada temos:
+
+#include <iostream>
+using namespace std;`
+
+int main() {
+int num = 10;
+num=-10;
+cout << num;
+return 0;
+}
