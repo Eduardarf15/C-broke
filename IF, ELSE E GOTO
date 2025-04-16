@@ -1,0 +1,61 @@
+- FEITO NO COMPILER C/ IF E ELSE
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1, n2, res;
+    char opc;
+    
+    cout << "Digite valor 1: " << endl;
+    cin >> n1;
+    cout << "Digite valor 2: " << endl;
+    cin >> n2;
+    
+    res = n1 + n2;
+    
+    if(res >= 60){
+        cout << "Aprovado" << endl;
+    }
+    else{
+        cout << "Reprovado";
+    }
+    return 0;
+}
+
+#include<iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main()
+{
+    int n1, n2, res;
+    char opc;
+    
+    cout << "Digite valor 1: " << endl;
+    cin >> n1;
+    cout << "Digite valor 2: " << endl;
+    cin >> n2;
+    
+    res = n1 + n2;
+    
+    if(res >= 60){
+        cout << "Aprovado" << endl;
+    }
+    else if(res >= 40){
+        cout << "Quase lá";
+    }
+    else{
+        cout << "Reprovado" << endl;
+    }
+    cout << "quer add outras notas? [s/n}";
+    cin >> opc;
+    
+    *ERRO* if(opc == 's' or opc == 'S'){
+        goto inicio;
+    }
+    return 0;
+}
