@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+struct DadosTempo {
+  int temperatura;
+  int umidade;
+  int pressao;
+};
+
+int main()
+{
+  //finge que esses valores estão inicializados e foram obtidos de alguma forma
+  struct DadosTempo dados[20];
+  static char txtbuf[64 * 1024]; //Buffer de 64kb
+
+  char *txtpos = txtbuf;
+  txtpos += sprintf(txtpos,"Temperatura;Umidade;Pressão\r\n");
+ 
+  for(int i = 0; i < 20; i++) {
+    txtpos += sprintf(txtpos, "%d;%d;%d\r\n",
+                      dados[i].temperatura,
+                      dados[i].umidade,
+                      dados[i].pressao);
+  }
+}
