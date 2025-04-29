@@ -1,0 +1,49 @@
+# ⚙️ Operador Ternário em C++ – Resumo Fácil
+
+O **operador ternário** em C++ é uma forma curta e elegante de escrever uma estrutura condicional `if-else`.
+
+## 📌 Sintaxe
+```cpp
+condição ? valor_se_verdadeiro : valor_se_falso;
+
+Se a condição for verdadeira, o resultado será valor_se_verdadeiro.
+
+Se for falsa, será valor_se_falso.
+
+## Verificar se número é par ou ímpar
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 5;
+    string resultado = (num % 2 == 0) ? "Par" : "Ímpar";
+    cout << "O número é " << resultado << endl;
+    return 0;
+}
+
+## Maior de dois números
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+    int maior = (a > b) ? a : b;
+    cout << "Maior valor: " << maior << endl;
+    return 0;
+}
+
+
+## Usando o ternário sem variáveis
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int idade = 17;
+    (idade >= 18) ? cout << "Maior de idade" : cout << "Menor de idade";
+    return 0;
+}
+
+## Use o operador ternário apenas para expressões simples. Para lógicas mais complexas ou múltiplas instruções, use if-else tradicional.
