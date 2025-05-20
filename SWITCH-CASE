@@ -1,0 +1,32 @@
+# 🧠 Exemplo de Switch Case em C++
+
+Este repositório mostra de forma simples como funciona o comando `switch case` na linguagem C++, explicado de um jeito fácil, como se fosse para uma criança aprender!
+
+---
+
+## 🚀 O que é `switch case`?
+
+Imagine que temos uma **caixinha mágica com botões**. Cada botão faz uma coisa diferente quando você aperta.
+
+No nosso código:
+- Botão 1 → Acende a luz 💡
+- Botão 2 → Toca uma música 🎵
+- Botão 3 → Mostra um desenho 🎨
+
+Se você apertar um botão que não existe, ele vai dizer: “Esse botão não faz nada... 😅”
+
+---
+
+## 📂 Arquivo principal
+
+- `switch_case_exemplo.cpp` → Código C++ com o exemplo funcionando.
+
+---
+
+## 🛠️ Como rodar
+
+1. Clone o repositório ou baixe o arquivo `.cpp`.
+2. Compile o código com um compilador C++, por exemplo:
+
+```bash
+g++ switch_case_exemplo.cpp -o switch_case
