@@ -36,3 +36,31 @@ default:
     return 0;
 }
 
+## EXEMPLO DE ESCOLHA DE CORES:
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int valor;
+    cout << "selecione uma cor: " << endl;
+    cout << "[1]=verde, [2]=azul, [3]=vermelho" << endl;
+    cin >> valor;
+    switch(valor){
+        case 1:
+        cout << "cor selecionada: verde" << endl;
+        break;
+        case 2:
+                cout << "cor selecionada: azul" << endl;
+                break;
+        case 3:
+                cout << "cor selecionada: vermelho" << endl;
+                break;
+                default:
+                cout << "erro viu bb";
+    }
+
+    return 0;
+}
