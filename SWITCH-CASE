@@ -15,18 +15,24 @@ No nosso código:
 
 Se você apertar um botão que não existe, ele vai dizer: “Esse botão não faz nada... 😅”
 
----
+## ESTRUTURA PADRÃO: 
+#include<iostream>
 
-## 📂 Arquivo principal
+using namespace std;
 
-- `switch_case_exemplo.cpp` → Código C++ com o exemplo funcionando.
+int main()
+{
+switch(exp){
+    case const1:
+    comandos;
+    break;
+    
+    case const2:
+    comandos;
+    break;
+default:
+    comandos;
+}
+    return 0;
+}
 
----
-
-## 🛠️ Como rodar
-
-1. Clone o repositório ou baixe o arquivo `.cpp`.
-2. Compile o código com um compilador C++, por exemplo:
-
-```bash
-g++ switch_case_exemplo.cpp -o switch_case
